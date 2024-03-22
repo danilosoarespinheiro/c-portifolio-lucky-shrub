@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 html{
@@ -60,9 +61,11 @@ nav{
 }
 
 nav > a{
-    font-size: 1.8rem;
+    font-size: 3rem;
     font-weight: 700;
     text-decoration: none;
+
+    font-weight: bold;
 }
 
 nav > a:link,
@@ -110,6 +113,7 @@ main{
     color: #34d399;
     font-size: 3.2rem;
     font-weight: 700;
+    font-weight: bold;
     margin-bottom: 1.6rem;
 }
 
@@ -121,9 +125,10 @@ main{
 }
 
 .main-article > div > a{
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 300;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .main-article > div  > a:link,
@@ -156,6 +161,7 @@ main{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-out;
+    font-weight: bold;
 }
 
 .card:hover{
@@ -224,6 +230,7 @@ footer > div > a{
     font-size: 1.8rem;
     font-weight: 300;
     text-decoration: none;
+    font-weight: bold;
 }
 
 footer > div > a:link,
